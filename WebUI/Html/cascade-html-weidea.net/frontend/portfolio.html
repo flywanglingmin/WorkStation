@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cascade Front End</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+         <!-- Brand and toggle get grouped for better mobile display -->
+         <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"> <span class="logo">Cas<strong>ca</strong>de <i class="fa fa-bookmark"></i></span></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right navbar-social-links hidden">
+            <li><a href="#">
+              <span class="fa-stack ">
+                <i class="fa fa-circle-o fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a></li>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right ">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="active"><a href="portfolio.html">Two Column</a></li>
+                <li><a href="portfolio-three.html">Three Column</a></li>
+                
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="blog.html">Posts</a></li>
+                <li><a href="blog-post.html">Single Post</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+           
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+
+    <div class="page-title">
+      <div class="container">
+        <h2>Portfolio Two Column</h2>
+        <ul class="breadcrumb pull-right">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li class="active"><a href="#">Two Column</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <div class="continer">
+
+        <div class="my-works" >
+          <div class="container text-center">
+
+            <!-- Filter links @navigation -->
+            <ul class="breadcrumb"  id="filters">
+              
+                <li><a href="#filter" data-filter="*">All</a></li>
+                <li><a href="#filter" data-filter=".metal">Photoshop</a></li>
+                <li><a href="#filter" data-filter=".transition">Illustrator</a></li>
+                <li><a href="#filter" data-filter=".alkali, .alkaline-earth">Web Design </a></li>
+                <li><a href="#filter" data-filter=".metal:not(.transition)">Mobile APps</a></li>
+            </ul><!-- /Filter links @navigation -->
+
+           <div class="row">
+              <!-- Portfolio items holder -->
+            <ul id="container" class="list-unstyled  ">
+
+              <!-- Portfolio Item -->
+              <li class="element col-md-6 transition metal">
+                  <!-- Portfolio Item image -->             
+                  <img src="images/portfolio/itemOne.png" width="100%" />
+              </li><!-- /Portfolio Item -->
+              <li class="element col-md-6 transition ">
+                  <!-- Portfolio Item image -->             
+                  <img src="images/portfolio/itemTwo.png" width="100%" />
+              </li><!-- /Portfolio Item -->
+              <li class="element col-md-6 transition metal">
+                  <!-- Portfolio Item image -->             
+                  <img src="images/portfolio/itemThree.png" width="100%" />
+              </li><!-- /Portfolio Item -->
+              <li class="element col-md-6 alkali metal">
+                  <!-- Portfolio Item image -->             
+                  <img src="images/portfolio/itemFour.png" width="100%" />
+              </li><!-- /Portfolio Item -->
+              <li class="element col-md-6 transition alkaline-earth">
+                  <!-- Portfolio Item image -->             
+                  <img src="images/portfolio/itemFive.png" width="100%" />
+              </li><!-- /Portfolio Item -->
+              <li class="element col-md-6 transition metal">
+                  <!-- Portfolio Item image -->             
+                  <img src="images/portfolio/itemSix.png" width="100%" />
+              </li><!-- /Portfolio Item -->
+              <li class="element col-md-6 alkali metal">
+                  <!-- Portfolio Item image -->             
+                  <img src="images/portfolio/itemNine.png" width="100%" />
+              </li><!-- /Portfolio Item -->
+              <li class="element col-md-6 alkali transition ">
+                  <!-- Portfolio Item image -->             
+                  <img src="images/portfolio/itemEight.png" width="100%" />
+              </li><!-- /Portfolio Item -->
+              <li class="element col-md-6 alkali transition ">
+                  <!-- Portfolio Item image -->             
+                  <img src="images/portfolio/itemTen.png" width="100%" />
+              </li><!-- /Portfolio Item -->
+              <li class="element col-md-6 alkali transition ">
+                  <!-- Portfolio Item image -->             
+                  <img src="images/portfolio/itemEleven.png" width="100%" />
+              </li><!-- /Portfolio Item -->
+              <li class="element col-md-6 alkali transition ">
+                  <!-- Portfolio Item image -->             
+                  <img src="images/portfolio/itemTwelve.png" width="100%" />
+              </li><!-- /Portfolio Item -->
+              <li class="element col-md-6 alkali transition ">
+                  <!-- Portfolio Item image -->             
+                  <img src="images/portfolio/itemThirteen.png" width="100%" />
+              </li><!-- /Portfolio Item -->
+              <li class="element col-md-6 alkali transition ">
+                  <!-- Portfolio Item image -->             
+                  <img src="images/portfolio/itemFourteen.png" width="100%" />
+              </li><!-- /Portfolio Item -->
+              <li class="element col-md-6 alkali transition ">
+                  <!-- Portfolio Item image -->             
+                  <img src="images/portfolio/itemFifteen.png" width="100%" />
+              </li><!-- /Portfolio Item -->
+              <li class="element col-md-6 alkali transition ">
+                  <!-- Portfolio Item image -->             
+                  <img src="images/portfolio/itemThree.png" width="100%" />
+              </li><!-- /Portfolio Item -->
+            </ul>
+           </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+      
+    <div class="footer">
+      <div class="twitter-feed">
+
+        <p><i class="fa fa-twitter fa-3x"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, magni, nostrum consectetur atque provident pariatur tenetur deleniti </p>
+      </div>
+      <div class="container footer-content">
+        <div class="row">
+          <div class="col-md-4">
+            <a class="navbar-brand" href="#"> <span class="logo">Cas<strong>ca</strong>de <i class="fa fa-bookmark"></i></span></a>
+            <div class="site-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</div>
+          </div>
+          <div class="col-md-4">
+            <h3 class="footer-heading">Tags of Cascade</h3>
+            <ul class="list-inline footer-tags">
+              <li><a href="">admin</a></li>
+              <li><a href="">backend</a></li>
+              <li><a href="">bootstrap3x</a></li>
+              <li><a href="">chat</a></li>
+              <li><a href="">clean</a></li>
+              <li><a href="">dashboard</a></li>
+              <li><a href="">flat</a></li>
+              <li><a href="">inbox</a></li>
+              <li><a href="">invoice</a></li>
+              <li><a href="">light weight</a></li>
+              <li><a href="">pricing</a></li>
+              <li><a href="">profile</a></li>
+              <li><a href="">responsive</a></li>
+              <li><a href="">timeline</a></li>
+              <li><a href="">ui</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3 class="footer-heading">Blog Posts</h3>
+            <ul class="list-unstyled blog-posts">
+              <li>
+               <a href="#">
+                <img src="images/blog/postOne.png" class="blog-thumbnail" alt="">
+                <h5>Creative Images are here</h5>
+                <p>Lorem Ipsum dolor sine amet consequor...</p>
+              </a>
+            </li>
+            <li>
+             <a href="#">
+              <img src="images/blog/postTwo.png" class="blog-thumbnail" alt="">
+              <h5>Creative Images are here</h5>
+              <p>Lorem Ipsum dolor sine amet consequor...</p>
+            </a>
+          </li>
+          <li>
+           <a href="#">
+            <img src="images/blog/postThree.png" class="blog-thumbnail" alt="">
+            <h5>Creative Images are here</h5>
+            <p>Lorem Ipsum dolor sine amet consequor...</p>
+          </a>
+        </li>
+        <ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+<script src="js/core.js"></script>
+  <script src="js/jquery.isotop.js"></script>
+</body>
+</html>
